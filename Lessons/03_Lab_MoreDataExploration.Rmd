@@ -47,6 +47,7 @@ matrix2
 matrix3 <- matrix(1:20, nrow = 5, ncol = 4, byrow = TRUE, # return after comma continues the line
                   dimnames = list(c("uno", "dos", "tres", "cuatro", "cinco"), 
                                   c("un", "deux", "trois", "cat"))) #
+matrix3
 
 matrix1[4, ] #
 matrix1[ , 3] #
@@ -75,6 +76,7 @@ names(dataframe1) <- c("ID","Color","Passed"); View(dataframe1) #
 dataframe1[1:2,] # 
 dataframe1[c("ID","Passed")] # 
 dataframe1$ID
+
 
 ```
 Question: How do the different types of data appear in the Environment tab?
@@ -148,10 +150,13 @@ format(today, format = "%B")
 format(today, format = "%y")
 format(today, format = "%m-%d-%Y")
 #format(today, format = "")
+<<<<<<< HEAD
 
 class(today)
 test ="January"
 class(test)
+=======
+>>>>>>> b3c7106116c07efb5453f2e1b6ba3c74dfab9fdd
 
 ```
 
